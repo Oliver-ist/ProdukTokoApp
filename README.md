@@ -70,7 +70,7 @@ Di NetBeans: klik kanan proyek, pilih **Run Maven**, lalu **Goals...**, isi `cle
 ## Pengujian dan Screenshot
 
 ### 1. Form tambah produk
-![Form tambah produk](docs/screenshots/01-form.png)
+![Form tambah produk](docs/screenshots/01-form.jpeg)
 
 ### 2. Tiga produk berhasil dimasukkan
 Produk yang diuji:
@@ -81,25 +81,25 @@ Produk yang diuji:
 | PRD002 | Es Teh Manis | Minuman | 5000 |
 | PRD003 | Kopi Susu | Minuman | 18000 |
 
-![Tabel berisi tiga produk](docs/screenshots/02-daftar-tiga-produk.png)
+![Tabel berisi tiga produk](docs/screenshots/02-daftar-tiga-produk.jpeg)
 
 ### 3. Pencarian berdasarkan nama
 Pencarian kata `es` hanya menampilkan "Es Teh Manis".
 
-![Hasil pencarian](docs/screenshots/03-pencarian.png)
+![Hasil pencarian](docs/screenshots/03-pencarian.jpeg)
 
 ### 4. Halaman detail produk terpilih
 Baris "Es Teh Manis" dipilih lalu tombol **Lihat Detail** ditekan.
 
-![Detail produk](docs/screenshots/04-detail.png)
+![Detail produk](docs/screenshots/04-detail.jpeg)
 
 ### 5. Validasi: nama kosong ditolak
-![Error nama kosong](docs/screenshots/05-error-nama-kosong.png)
+![Error nama kosong](docs/screenshots/05-error-nama-kosong.jpeg)
 
 ### 6. Validasi: harga tidak valid ditolak
 Harga `0`, `-100`, dan teks non-angka ditolak.
 
-![Error harga tidak valid](docs/screenshots/06-error-harga.png)
+![Error harga tidak valid](docs/screenshots/06-error-harga.jpeg)
 
 ## Hasil Pengujian
 
