@@ -78,18 +78,18 @@ Produk yang diuji:
 | Kode | Nama | Kategori | Harga |
 |---|---|---|---|
 | PRD001 | Nasi Goreng | Makanan | 15000 |
-| PRD002 | Es Teh Manis | Minuman | 5000 |
-| PRD003 | Kopi Susu | Minuman | 18000 |
+| PRD002 | Pecel Ayam Kremes | Makanan | 22000 |
+| PRD003 | Kwetiaw Rebus | Makanan | 17000 |
 
 ![Tabel berisi tiga produk](docs/screenshots/02-daftar-tiga-produk.jpeg)
 
 ### 3. Pencarian berdasarkan nama
-Pencarian kata `es` hanya menampilkan "Es Teh Manis".
+Pencarian kata `nasi` hanya menampilkan "Nasi Goreng".
 
 ![Hasil pencarian](docs/screenshots/03-pencarian.jpeg)
 
 ### 4. Halaman detail produk terpilih
-Baris "Es Teh Manis" dipilih lalu tombol **Lihat Detail** ditekan.
+Baris "Nasi Goreng" dipilih lalu tombol **Lihat Detail** ditekan.
 
 ![Detail produk](docs/screenshots/04-detail.jpeg)
 
@@ -106,7 +106,7 @@ Harga `0`, `-100`, dan teks non-angka ditolak.
 | Skenario | Hasil |
 |---|---|
 | Memasukkan 3 produk | Ketiganya muncul di tabel dengan kode PRD001 sampai PRD003 |
-| Mencari `es` | Hanya Es Teh Manis yang tampil |
+| Mencari `Nasi` | Hanya Nasi Goreng yang tampil |
 | Lihat Detail pada baris terpilih | Detail sesuai produk yang dipilih |
 | Nama kosong | Ditolak: "Nama produk tidak boleh kosong." |
 | Harga `0` atau negatif | Ditolak: "Harga harus lebih dari nol." |
